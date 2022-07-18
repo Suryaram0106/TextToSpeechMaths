@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".Title_Activity">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/add_btn"
+        android:background="@drawable/bg"
+        app:backgroundTint="@color/buttonbg"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Add"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/sub_btn"
+        android:background="@drawable/bg"
+        app:backgroundTint="@color/buttonbg"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Subtract"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/mul_btn"
+        android:background="@drawable/bg"
+        app:backgroundTint="@color/buttonbg"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Multiply"/>
+
+    </LinearLayout>
+
+</LinearLayout>
